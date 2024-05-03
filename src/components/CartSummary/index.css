@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.order-total-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.order-total {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #616e7c;
+}
+
+.total-cost {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #171f46;
+}
+
+.items-count-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #616e7c;
+  margin-top: 0px;
+}
+
+.checkout-btn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.payment-methods-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.sub-heading {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.payment-method {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background-color: #d3d3d3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.cart-items-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.confirm-order-btn {
+  align-self: flex-end;
+  border: 2px solid #000000;
+  height: 50px;
+  width: 150px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.enabled-btn {
+  background-color: green;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+}
